@@ -1,9 +1,8 @@
 module.exports = {
   title: 'E-mongolia хөгжүүлэгчийн гарын авлага',
   tagline: 'E-mongolia хөгжүүлэгчийн гарын авлага',
-  url: 'https://astvision.github.io',
-  baseUrl: '/e-mongolia-api-doc/',
-  // baseUrl: '/',
+  url: 'https://developer.e-mongolia.mn',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
@@ -11,7 +10,11 @@ module.exports = {
   projectName: 'e-mongolia-api-doc',
   themeConfig: {
     hideableSidebar: true,
+    gtag: {
+      trackingID: 'UA-129610459-2',
+    },
     navbar: {
+      hideOnScroll: true,
       title: 'E-Mongolia',
       logo: {
         alt: 'e-mongolia logo',
@@ -99,6 +102,11 @@ module.exports = {
           ],
         },
       ],
+      logo: {
+        alt: 'E-mongolia Full Logo',
+        src: 'img/logo-new-light.svg',
+        href: 'https://e-mongolia.mn',
+      },
       copyright: `Copyright © ${new Date().getFullYear()} Харилцаа холбоо, мэдээллийн технологийн газар.`,
     },
   },
