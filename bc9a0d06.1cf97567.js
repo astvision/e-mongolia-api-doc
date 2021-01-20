@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{92:function(o){o.exports=JSON.parse('{"allTagsPath":"/e-mongolia-api-doc/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/e-mongolia-api-doc/blog/tags/docusaurus"}')}}]);

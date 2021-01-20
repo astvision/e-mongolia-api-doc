@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://astvision.github.io/blog</id>
+    <id>https://astvision.github.io/e-mongolia-api-doc/blog</id>
     <title>E-mongolia хөгжүүлэгчийн гарын авлага Blog</title>
     <updated>2019-05-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://astvision.github.io/blog"/>
+    <link rel="alternate" href="https://astvision.github.io/e-mongolia-api-doc/blog"/>
     <subtitle>E-mongolia хөгжүүлэгчийн гарын авлага Blog</subtitle>
-    <icon>https://astvision.github.io/img/favicon.png</icon>
+    <icon>https://astvision.github.io/e-mongolia-api-doc/img/favicon.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
