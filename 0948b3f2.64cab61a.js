@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{73:function(o){o.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/e-mongolia-api-doc/blog/welcome"},{"title":"Hello","permalink":"/e-mongolia-api-doc/blog/hello-world"},{"title":"Hola","permalink":"/e-mongolia-api-doc/blog/hola"}]}')}}]);
