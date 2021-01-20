@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{74:function(o){o.exports=JSON.parse('{"allTagsPath":"/e-mongolia-api-doc/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/e-mongolia-api-doc/blog/tags/hello"}')}}]);
