@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 
 function Cooperations() {
   return (
-    <Layout title="Hello">
+    <Layout title="Хамтрагч байгууллагууд">
       <div
         style={{
           display: 'flex',

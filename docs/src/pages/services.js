@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 
 function Services() {
   return (
-    <Layout title="Hello">
+    <Layout title="Үйлчилгээнүүд">
       <div
         style={{
           display: 'flex',
