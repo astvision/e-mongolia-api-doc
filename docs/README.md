@@ -1,33 +1,34 @@
-# Website
+# E-mongolia хөгжүүлэгчийн гарын авлага
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+Энэхүү сайт нь [Docusaurus 2](https://v2.docusaurus.io/) гэх бэлэн статик сайт хийхэд зориулагдсан багажд тулгуурлан хийгдсэн.
 
-## Installation
-
-```console
-yarn install
-```
-
-## Local Development
+## Суулгац, шаардлагатай багцуудыг суулгах
 
 ```console
-yarn start
+npm install
 ```
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
+## Хөгжүүлэлтийн орчинд ажиллуулах
 
 ```console
-yarn build
+npm start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Хөгжүүлэлтийн орчинд nodejs сервер дээр ажиллаж кодын өөрчлөлтийг автоматаар мэдэрч ажиллана.
 
-## Deployment
+## Сайтыг deploy хийхэд бэлдэх
 
 ```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+npm run build
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Энэ командаар сайтыг deploy хийхэд бэлдэхэд шаардлагатай статик html хуудсуудыг `build` хавтасанд үүсгэж өгнө.
+Жич: Github pages дээр хостлох бол энэ командыг ажиллуулаад байх шаардлагагүй шууд `npm run deploy:site` командыг ажиллуулахад болно.
+
+## Сайтыг deploy хийх
+
+```console
+npm run deploy:site
+```
+
+Энэ командаар Github pages хоструу сайтыг автоматаар deploy хийнэ. Github pages хост дээр ажиллах статик файлууд `gh-pages` салбараас уншигдана.

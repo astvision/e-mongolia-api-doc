@@ -39,12 +39,12 @@ module.exports = {
           label: 'Хамтрагч байгууллагууд',
           position: 'left',
         },
-        {to: 'blog', label: 'Блог', position: 'left'},
+        /* {to: 'blog', label: 'Блог', position: 'left'},
         {
           href: 'https://github.com/astvision/e-mongolia-api-doc',
           label: 'GitHub',
           position: 'right',
-        },
+        }, */
       ],
     },
     footer: {
@@ -88,7 +88,7 @@ module.exports = {
             },
           ],
         },
-        {
+        /* {
           title: 'Бусад холбоосууд',
           items: [
             {
@@ -100,7 +100,7 @@ module.exports = {
               href: 'https://github.com/astvision/e-mongolia-api-doc',
             },
           ],
-        },
+        }, */
       ],
       logo: {
         alt: 'E-mongolia Full Logo',
