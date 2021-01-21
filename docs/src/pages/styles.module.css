@@ -33,7 +33,12 @@
 }
 
 .getStarted {
-  color: #fff !important;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.getStarted:hover {
+  background-color: rgb(255, 255, 255);
+  color: var(--ifm-color-primary);
 }
 
 .features {
