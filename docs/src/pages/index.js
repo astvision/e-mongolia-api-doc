@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Мобайл систэмтэй холбогдох',
+    imageUrl: 'img/home-page-mobile.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Мобайл систэмтэй холбогдох
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Оператор системтэй холбогдох',
+    imageUrl: 'img/home-page-operator.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Оператор системтэй холбогдох
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Портал системтэй холбогдох',
+    imageUrl: 'img/home-page-portal.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Портал системтэй холбогдох
       </>
     ),
   },
@@ -72,12 +69,12 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Заавартай танилцах
+              Гарын авлагатай танилцах
             </Link>
           </div>
         </div>
       </header>
-      {/* <main>
+      <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
@@ -89,7 +86,7 @@ function Home() {
             </div>
           </section>
         )}
-      </main> */}
+      </main>
     </Layout>
   );
 }

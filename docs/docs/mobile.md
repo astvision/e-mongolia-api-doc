@@ -1,8 +1,7 @@
 ---
-id: doc1
-title: Style Guide
-sidebar_label: Style Guide
-slug: /
+id: mobile
+title: Мобайл системийн танилцуулга
+sidebar_label: Танилцуулга
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
