@@ -2,13 +2,28 @@ module.exports = {
   docs: [
     'intro',
     {
-      'Мобайл систем': ['mobile']
+      type: 'category',
+      label: 'Мобайл систем',
+      collapsed: false,
+      items: ['mobile']
     },
     {
-      'Портал систэм': ['portal']
+      type: 'category',
+      label: 'Портал систэм',
+      collapsed: false,
+      items: ['portal']
     },
     {
-      'Оператор систэм': ['operator']
+      type: 'category',
+      label: 'Оператор систэм',
+      collapsed: true,
+      items: ['operator']
+    },
+    {
+      type: 'category',
+      label: 'Систем холбох',
+      collapsed: true,
+      items: ['system']
     }
   ]
   // service: [

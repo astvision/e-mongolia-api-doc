@@ -1,8 +1,8 @@
 const path = require('path');
 
 module.exports = {
-  title: 'E-mongolia хөгжүүлэгчийн гарын авлага',
-  tagline: 'E-mongolia хөгжүүлэгчийн гарын авлага',
+  title: 'Хөгжүүлэгчийн гарын авлага',
+  tagline: 'E-mongolia системийг бусад системтэй интеграци хийхэд зориулсан гарын авлага',
   url: 'https://developer.e-mongolia.mn',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -11,16 +11,26 @@ module.exports = {
   organizationName: 'astvision',
   projectName: 'e-mongolia-api-doc',
   customFields: {
-    apiUrl: 'https://e-mongolia.mn/shared-api/api/service/filter?entityType=CITIZEN&branchType=PORTAL&type=GOV_AGENCY'
+    orgParams: {
+      entityType: 'CITIZEN',
+      branchType: 'PORTAL',
+      type: 'GOV_AGENCY'
+    }
   },
   themeConfig: {
     hideableSidebar: true,
     gtag: {
       trackingID: 'UA-129610459-2'
     },
+    /* algolia: {
+      apiKey: 'YOUR_API_KEY',
+      indexName: 'e-mongolia-api-doc',
+      contextualSearch: true,
+      // searchParameters: {},
+    }, */
     announcementBar: {
       id: 'under-development',
-      content: '&#10071;&#10071; <b>Энэхүү сайт нь хөгжүүлэгдэж байгаа болно. </b>'
+      content: '&#10071;&#10071;&#10071; <b style="color:darkred">Энэхүү сайт нь хөгжүүлэгдэж байгаа болно. </b>'
     },
     navbar: {
       hideOnScroll: true,
@@ -74,15 +84,15 @@ module.exports = {
             },
             {
               label: 'Портал системийн гарын авлага',
-              to: 'docs/doc2/'
+              to: 'docs/portal/'
             },
             {
               label: 'Оператор системийн гарын авлага',
-              to: 'docs/doc3/'
+              to: 'docs/operator/'
             },
             {
               label: 'Систем холбох гарын авлага',
-              to: 'docs/mdx/'
+              to: 'docs/system/'
             }
           ]
         },

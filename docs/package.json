@@ -1,6 +1,6 @@
 {
   "name": "api-doc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -21,6 +21,10 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "qs": "^6.9.6"
+  },
   "browserslist": {
     "production": [
       ">0.5%",
@@ -32,8 +36,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "axios": "^0.21.1"
   }
 }

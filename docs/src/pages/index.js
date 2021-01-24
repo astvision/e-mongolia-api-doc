@@ -10,30 +10,18 @@ const features = [
   {
     title: 'Мобайл систэмтэй холбогдох',
     imageUrl: 'img/home-page-mobile.svg',
-    description: (
-      <>
-        Мобайл систэмтэй холбогдох
-      </>
-    ),
+    description: <>Мобайл систэмтэй холбогдох боломж</>
   },
   {
     title: 'Оператор системтэй холбогдох',
     imageUrl: 'img/home-page-operator.svg',
-    description: (
-      <>
-        Оператор системтэй холбогдох
-      </>
-    ),
+    description: <>Оператор системтэй холбогдох боломж</>
   },
   {
     title: 'Портал системтэй холбогдох',
     imageUrl: 'img/home-page-portal.svg',
-    description: (
-      <>
-        Портал системтэй холбогдох
-      </>
-    ),
-  },
+    description: <>Портал системтэй холбогдох боломж</>
+  }
 ];
 
 function Feature({imageUrl, title, description}) {
@@ -55,20 +43,13 @@ function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   return (
-    <Layout
-      title={`${siteConfig.title}`}
-      description="E-mongolia хөгжүүлэгийн гарын авлага">
+    <Layout title={`${siteConfig.title}`} description="E-mongolia хөгжүүлэгийн гарын авлага">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className={clsx('hero__title', styles.heroTitle)}>{siteConfig.title}</h1>
           <p className={clsx('hero__subtitle', styles.heroSubTitle)}>{siteConfig.tagline}</p>
           <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--primary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/')}>
+            <Link className={clsx('button button--outline button--primary button--lg', styles.getStarted)} to={useBaseUrl('docs/')}>
               Гарын авлагатай танилцах
             </Link>
           </div>
