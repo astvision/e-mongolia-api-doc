@@ -15,6 +15,18 @@ module.exports = {
       entityType: 'CITIZEN',
       branchType: 'PORTAL',
       type: 'GOV_AGENCY'
+    },
+    mobileParams: {
+      type: 'SECTOR',
+      branchType: 'MOBILE'
+    },
+    operatorParams: {
+      type: 'SECTOR',
+      branchType: 'OPERATOR'
+    },
+    portalParams: {
+      type: 'SECTOR',
+      branchType: 'PORTAL'
     }
   },
   themeConfig: {
@@ -22,12 +34,12 @@ module.exports = {
     gtag: {
       trackingID: 'UA-129610459-2'
     },
-    /* algolia: {
+    algolia: {
       apiKey: 'YOUR_API_KEY',
       indexName: 'e-mongolia-api-doc',
-      contextualSearch: true,
+      contextualSearch: true
       // searchParameters: {},
-    }, */
+    },
     announcementBar: {
       id: 'under-development',
       content: '&#10071;&#10071;&#10071; <b style="color:darkred">Энэхүү сайт нь хөгжүүлэгдэж байгаа болно. </b>'
@@ -108,11 +120,11 @@ module.exports = {
               href: 'https://e-mongolia.mn/'
             },
             {
-              label: 'Хөгжүүлэгч компани',
+              label: 'Astvision ХХК',
               href: 'http://astvision.mn/'
             },
             {
-              label: 'Харилцаа холбоо, мэдээллийн технологийн газар',
+              label: 'CITA',
               href: 'https://www.cita.gov.mn/'
             }
           ]
