@@ -1,7 +1,6 @@
 const axios = require('axios').default;
 const qs = require('qs');
-
-const baseUrl = 'https://e-mongolia.mn/shared-api/api/service/filter';
+const {baseUrl} = require('./config');
 
 const request = async (params) => {
   try {
@@ -23,10 +22,7 @@ const modifyOrgData = (data) => {
     data &&
     data.list
       .map(({id, name, icon, count, subCategories}) => {
-        let subCats = [];
-        if (subCategories) {
-          subCats = subCategories.map(({id, name, parentId, icon, count}) => ({id, name, parentId, icon, count}));
-        }
+        const subCats = subCategories ? subCategories.map(({id, name, parentId, icon, count}) => ({id, name, parentId, icon, count})) : [];
         return {id, name, icon, count, subCats, open: false};
       })
       .filter((d) => d.id !== 'all')
