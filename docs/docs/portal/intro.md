@@ -1,5 +1,5 @@
 ---
-id: portal
+id: intro
 title: Портал системийн танилцуулга
 sidebar_label: Танилцуулга
 ---

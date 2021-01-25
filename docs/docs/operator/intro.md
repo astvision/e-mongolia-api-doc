@@ -1,5 +1,5 @@
 ---
-id: operator
+id: intro
 title: Оператор системийн танилцуулга
 sidebar_label: Танилцуулга
 ---

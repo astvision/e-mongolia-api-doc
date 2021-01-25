@@ -79,16 +79,20 @@ module.exports = {
           title: 'Гарын авлага',
           items: [
             {
-              label: 'Мобайл системийн гарын авлага',
+              label: 'Гарын авлагын тухай',
               to: 'docs/'
             },
             {
+              label: 'Мобайл системийн гарын авлага',
+              to: 'docs/mobile/intro'
+            },
+            {
               label: 'Портал системийн гарын авлага',
-              to: 'docs/portal/'
+              to: 'docs/portal/intro/'
             },
             {
               label: 'Оператор системийн гарын авлага',
-              to: 'docs/operator/'
+              to: 'docs/operator/intro/'
             },
             {
               label: 'Систем холбох гарын авлага',
@@ -104,11 +108,11 @@ module.exports = {
               href: 'https://e-mongolia.mn/'
             },
             {
-              label: 'Astvision ХХК',
+              label: 'Хөгжүүлэгч компани',
               href: 'http://astvision.mn/'
             },
             {
-              label: 'ХХМТГ',
+              label: 'Харилцаа холбоо, мэдээллийн технологийн газар',
               href: 'https://www.cita.gov.mn/'
             }
           ]

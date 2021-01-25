@@ -1,0 +1,74 @@
+---
+id: list
+title: Хүсэлтийн жагсаалт
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+## Үйлчилгээний хүсэлтийн жагсаалт авах
+
+### Сервис хаяг
+
+```text
+GET https://service.e-mongolia.mn/mobile-api/api/service-request
+```
+
+### Header параметрүүд
+
+Header дээр **Authentication token** оруулах шаардлагатай
+
+```javascript
+X-Auth-Token: // string шаардлагатай
+```
+
+### Query параметрүүд
+
+Дээрх сервис хаягыг доорх query параметрүүдтэй цуг дуудна. Бүх параметрүүдийг бичих шаардлагагүй. Шаардлагатай параметрүүдээ оруулахад болно.
+
+```java
+String status // Төлөв Enum:[SUBMITTED, PROCESSING, EDIT, FILE_REQUESTED, PRINTING, COMPLETED, PRINTED, REJECTED, EXPIRED, GRANTED]
+String number // Хүсэлтийн дугаар
+LocalDate createdDate // Үүсгэсэн огноо
+int currentPage // Одоогийн хуудас (0-оос эхэлнэ)
+int pageSize // Нэг хуудсанд харуулах тоо (default 10)
+String sortDirection // Эрэмбэлэх чиглэл Enum: [ASC, DESC]
+String[] sortParams // Эрэмбэлэх талбарууд
+```
+
+### Хүсэлтийн хариу
+
+<Tabs
+  defaultValue="200"
+  values={[
+    {label: 'Амжилттай хариу', value: '200'},
+    {label: 'Амжилтгүй хариу', value: '400'},
+  ]}>
+<TabItem value="200">
+
+```java
+boolean result; // true
+String message; // null
+Object data {
+  AntdPagination pagination {
+    int currentPage; // одоогийн хуудасны тоо
+    int pageSize; // хуудасны мөрийн тоо
+    long total; // нийт хүсэлтийн тоо
+    Direction sortDirection; // эрэмблэсэн чиглэл
+    String[] sortParams; // эрэмблэсэн параметрүүд
+  }
+  Iterable<T> list // [] Хүсэлтийн жагсаалт
+}
+```
+
+</TabItem>
+<TabItem value="400">
+
+```java
+boolean result // false
+String message // Алдааны мессеж
+Object data // null
+```
+
+</TabItem>
+</Tabs>
