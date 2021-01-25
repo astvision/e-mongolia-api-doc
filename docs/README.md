@@ -28,7 +28,7 @@ npm run build
 ## Сайтыг deploy хийх
 
 ```console
-npm run deploy:site
+GIT_USER=astvision npm run deploy
 ```
 
 Энэ командаар Github pages хоструу сайтыг автоматаар deploy хийнэ. Github pages хост дээр ажиллах статик файлууд `gh-pages` салбараас уншигдана.
