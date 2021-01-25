@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://developer.e-mongolia.mn/blog</id>
-    <title>E-mongolia хөгжүүлэгчийн гарын авлага Blog</title>
+    <title>Хөгжүүлэгчийн гарын авлага Blog</title>
     <updated>2019-05-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://developer.e-mongolia.mn/blog"/>
-    <subtitle>E-mongolia хөгжүүлэгчийн гарын авлага Blog</subtitle>
+    <subtitle>Хөгжүүлэгчийн гарын авлага Blog</subtitle>
     <icon>https://developer.e-mongolia.mn/img/favicon.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
