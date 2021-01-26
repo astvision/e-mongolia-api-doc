@@ -4,4 +4,12 @@ title: Портал системийн танилцуулга
 sidebar_label: Танилцуулга
 ---
 
-This is a link to [another document.](intro.md) This is a link to an [external page.](http://www.example.com/)
+## Порталд зориулсан үйлчилгээний хүсэлтийн API
+
+Порталд зориулсан үйлчилгээний хүсэлтийн API
+
+### Үндсэн сервис хаяг
+
+```text
+https://e-mongolia.mn/api
+```

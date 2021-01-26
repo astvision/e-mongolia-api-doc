@@ -3,4 +3,68 @@ id: create
 title: Хүсэлт үүсгэх
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 ## Үйлчилгээний хүсэлтийн мэдээлэл үүсгэх
+
+Төлбөртэй үйлчилгээ бол төлбөр төлөгдөх үед төлөв нь солигдоно, төлбөргүй үйлчилгээ бол /service-request/set-submitted-free API-г дуудаж төлвийг солино.
+
+### Сервис хаяг
+
+```text
+POST https://e-mongolia.mn/api/service-request/create
+```
+
+### Header параметрүүд
+
+Header дээр **Authentication token** оруулах шаардлагатай
+
+```javascript
+X-Auth-Token: // string шаардлагатай
+```
+
+### Request body
+
+```java
+String serviceId // Үйлчилгээний ID
+Object formData // 
+String regnum // 
+Object citizen // 
+String xypRequestId // 
+Object data // 
+String representativeType // 
+String representativeRegnum // 
+String representativeReason // 
+String representativeReasonFile // 
+```
+
+### Хүсэлтийн хариу
+
+<Tabs
+  defaultValue="200"
+  values={[
+    {label: 'Амжилттай хариу', value: '200'},
+    {label: 'Амжилтгүй хариу', value: '400'},
+  ]}>
+<TabItem value="200">
+
+```java
+boolean result; // true
+String message; // null
+Object data {
+  //
+}
+```
+
+</TabItem>
+<TabItem value="400">
+
+```java
+boolean result // false
+String message // Алдааны мессеж
+Object data // null
+```
+
+</TabItem>
+</Tabs>

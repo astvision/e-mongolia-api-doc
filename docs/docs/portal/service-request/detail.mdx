@@ -3,4 +3,57 @@ id: detail
 title: Хүсэлтийн дэлгэрэнгүй
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 ## Үйлчилгээний хүсэлтийн дэлгэрэнгүй
+
+### Сервис хаяг
+
+```text
+GET https://e-mongolia.mn/api/service-request/{serviceRequestId}
+```
+
+### Header параметрүүд
+
+Header дээр **Authentication token** оруулах шаардлагатай
+
+```javascript
+X-Auth-Token: // string шаардлагатай
+```
+
+### Path параметрүүд
+
+```java
+String serviceRequestId // хүсэлтийн дугаар
+```
+
+### Хүсэлтийн хариу
+
+<Tabs
+  defaultValue="200"
+  values={[
+    {label: 'Амжилттай хариу', value: '200'},
+    {label: 'Амжилтгүй хариу', value: '400'},
+  ]}>
+<TabItem value="200">
+
+```java
+boolean result; // true
+String message; // null
+Object data {
+  ServiceRequest 
+}
+```
+
+</TabItem>
+<TabItem value="400">
+
+```java
+boolean result // false
+String message // Алдааны мессеж
+Object data // null
+```
+
+</TabItem>
+</Tabs>
