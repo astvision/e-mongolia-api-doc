@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://ant.design">
-    <img width="200" src="https://developer.e-mongolia.mn/img/logo-new.svg">
+    <img width="150" src="https://developer.e-mongolia.mn/img/logo-new.svg">
   </a>
 </p>
 
