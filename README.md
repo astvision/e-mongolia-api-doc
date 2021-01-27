@@ -8,6 +8,9 @@
 
 <div align="center">
 
+![GitHub package.json version](https://img.shields.io/github/package-json/v/astvision/e-mongolia-api-doc?style=flat-square)
+[![Generic badge](https://img.shields.io/badge/Built%20with-Docusaurus-color.svg)](https://v2.docusaurus.io/)
+
 </div>
 
 Энэхүү сайт нь [Docusaurus 2](https://v2.docusaurus.io/) гэх бэлэн статик сайт хийхэд зориулагдсан багажд тулгуурлан хийгдсэн.
