@@ -16,7 +16,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Портал систэм',
+      label: 'Портал систем',
       collapsed: false,
       items: [
         'portal/intro',
@@ -29,7 +29,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Оператор систэм',
+      label: 'Оператор систем',
       collapsed: true,
       items: ['operator/intro']
     },
