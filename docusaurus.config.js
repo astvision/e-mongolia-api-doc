@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   title: 'Хөгжүүлэгчийн гарын авлага',
-  tagline: 'E-mongolia системийг бусад системтэй интеграци хийхэд зориулсан гарын авлага',
+  tagline: 'E-Mongolia системийг бусад системтэй интеграци хийхэд зориулсан гарын авлага',
   url: 'https://developer.e-mongolia.mn',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -120,11 +120,11 @@ module.exports = {
               href: 'https://e-mongolia.mn/'
             },
             {
-              label: 'Astvision ХХК',
-              href: 'http://astvision.mn/'
+              label: 'Аствишн ХХК',
+              href: 'http://www.astvision.mn/'
             },
             {
-              label: 'CITA',
+              label: 'ХХМТГ',
               href: 'https://www.cita.gov.mn/'
             }
           ]
