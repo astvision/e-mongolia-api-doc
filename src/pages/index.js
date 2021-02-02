@@ -8,9 +8,9 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Мобайл систэмтэй холбогдох',
+    title: 'Мобайл системтэй холбогдох',
     imageUrl: 'img/home-page-mobile.svg',
-    description: <>Мобайл систэмтэй холбогдох боломж</>
+    description: <>Мобайл системтэй холбогдох боломж</>
   },
   {
     title: 'Оператор системтэй холбогдох',
