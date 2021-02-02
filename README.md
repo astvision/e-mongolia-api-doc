@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h1 align="center">E-mongolia хөгжүүлэгчийн гарын авлага</h1>
+<h1 align="center">E-Mongolia хөгжүүлэгчийн гарын авлага</h1>
 
 <div align="center">
 
