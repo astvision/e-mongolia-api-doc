@@ -4,7 +4,7 @@ import Services from '../components/Services';
 
 function Service() {
   return (
-    <Layout title="Үйлчилгээнүүд" description="E-mongolia систем дээрх үйлчилгээнүүд">
+    <Layout title="Үйлчилгээнүүд" description="E-Mongolia систем дээрх үйлчилгээнүүд">
       <div className="container">
         <div
           style={{
