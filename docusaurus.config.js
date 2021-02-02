@@ -8,7 +8,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'astvision',
+  organizationName: 'Astvision',
   projectName: 'e-mongolia-api-doc',
   customFields: {
     orgParams: {
@@ -120,11 +120,11 @@ module.exports = {
               href: 'https://e-mongolia.mn/'
             },
             {
-              label: 'Astvision ХХК',
-              href: 'http://astvision.mn/'
+              label: 'Аствишн ХХК',
+              href: 'http://www.astvision.mn/'
             },
             {
-              label: 'CITA',
+              label: 'ХХМТГ',
               href: 'https://www.cita.gov.mn/'
             }
           ]
