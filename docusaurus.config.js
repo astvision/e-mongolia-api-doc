@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   title: 'Хөгжүүлэгчийн гарын авлага',
-  tagline: 'E-mongolia системийг бусад системтэй интеграци хийхэд зориулсан гарын авлага',
+  tagline: 'E-Mongolia системийг бусад системтэй интеграци хийхэд зориулсан гарын авлага',
   url: 'https://developer.e-mongolia.mn',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -34,16 +34,16 @@ module.exports = {
     gtag: {
       trackingID: 'UA-129610459-2'
     },
-    algolia: {
-      apiKey: 'YOUR_API_KEY',
-      indexName: 'e-mongolia-api-doc',
-      contextualSearch: true
-      // searchParameters: {},
-    },
-    announcementBar: {
-      id: 'under-development',
-      content: '&#10071;&#10071;&#10071; <b style="color:darkred">Энэхүү сайт нь хөгжүүлэгдэж байгаа болно. </b>'
-    },
+    // algolia: {
+    //   apiKey: 'YOUR_API_KEY',
+    //   indexName: 'e-mongolia-api-doc',
+    //   contextualSearch: true
+    //   // searchParameters: {},
+    // },
+    // announcementBar: {
+    //   id: 'under-development',
+    //   content: '&#10071;&#10071;&#10071; <b style="color:darkred">Энэхүү сайт нь хөгжүүлэгдэж байгаа болно. </b>'
+    // },
     navbar: {
       hideOnScroll: true,
       title: 'E-Mongolia',
