@@ -8,7 +8,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'Astvision',
+  organizationName: 'astvision',
   projectName: 'e-mongolia-api-doc',
   customFields: {
     orgParams: {
