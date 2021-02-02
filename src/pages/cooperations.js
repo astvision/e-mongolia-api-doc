@@ -4,7 +4,7 @@ import Organizations from '../components/Organizations';
 
 function Cooperations() {
   return (
-    <Layout title="Хамтрагч байгууллагууд" description="E-mongolia систем дээрх хамтрагч байгууллагууд">
+    <Layout title="Хамтрагч байгууллагууд" description="E-Mongolia систем дээрх хамтрагч байгууллагууд">
       <div className="container">
         <div
           style={{
