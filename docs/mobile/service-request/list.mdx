@@ -18,7 +18,7 @@ GET https://service.e-mongolia.mn/mobile-api/api/service-request
 
 Header дээр **Authentication token** оруулах шаардлагатай юм.
 
-```javascript
+```text
 X-Auth-Token: // string шаардлагатай
 ```
 
@@ -26,7 +26,7 @@ X-Auth-Token: // string шаардлагатай
 
 Дээрх сервис хаягыг доорх query параметрүүдтэй цуг дуудна. Бүх параметрүүдийг бичих шаардлагагүй. Шаардлагатай параметрүүдээ оруулахад болно.
 
-```java
+```javascript
 String status // Төлөв Enum:[SUBMITTED, PROCESSING, EDIT, FILE_REQUESTED, PRINTING, COMPLETED, PRINTED, REJECTED, EXPIRED, GRANTED]
 String number // Хүсэлтийн дугаар
 LocalDate createdDate // Үүсгэсэн огноо
@@ -46,7 +46,7 @@ String[] sortParams // Эрэмбэлэх талбарууд
   ]}>
 <TabItem value="200">
 
-```java
+```javascript
 boolean result; // true
 String message; // null
 Object data {
@@ -64,7 +64,7 @@ Object data {
 </TabItem>
 <TabItem value="400">
 
-```java
+```javascript
 boolean result // false
 String message // Алдааны мессеж
 Object data // null

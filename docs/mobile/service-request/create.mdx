@@ -20,13 +20,13 @@ POST https://service.e-mongolia.mn/mobile-api/api/service-request/create
 
 Header дээр **Authentication token** оруулах шаардлагатай юм.
 
-```javascript
+```text
 X-Auth-Token: // string шаардлагатай
 ```
 
 ### Request body
 
-```java
+```javascript
 String serviceId // Үйлчилгээний ID
 Object formData // 
 String regnum // 
@@ -49,18 +49,16 @@ String representativeReasonFile //
   ]}>
 <TabItem value="200">
 
-```java
+```js
 boolean result; // true
 String message; // null
-Object data {
-  //
-}
+Object data
 ```
 
 </TabItem>
 <TabItem value="400">
 
-```java
+```js
 boolean result // false
 String message // Алдааны мессеж
 Object data // null

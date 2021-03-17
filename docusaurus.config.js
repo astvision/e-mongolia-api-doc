@@ -34,6 +34,17 @@ module.exports = {
     gtag: {
       trackingID: 'UA-129610459-2'
     },
+    metadatas: [
+      {property: 'og:locale', content: 'mn_MN'},
+      {property: 'og:image', content: 'https://developer.e-mongolia.mn/img/logo-full.png'},
+      {property: 'og:url', content: 'https://developer.e-mongolia.mn/'},
+      {property: 'og:site_name', content: 'E-mongolia хөгжүүлэгийн гарын авлага'},
+      {property: 'og:type', content: 'website'}
+    ],
+    // prism: {
+    //   theme: require('prism-react-renderer/themes/github'),
+    //   darkTheme: require('prism-react-renderer/themes/dracula')
+    // },
     // algolia: {
     //   apiKey: 'YOUR_API_KEY',
     //   indexName: 'e-mongolia-api-doc',
@@ -166,6 +177,11 @@ module.exports = {
         pwaHead: [
           {
             tagName: 'link',
+            rel: 'canonical',
+            href: 'https://developer.e-mongolia.mn/'
+          },
+          {
+            tagName: 'link',
             rel: 'icon',
             href: 'img/logo-new.png'
           },
@@ -178,6 +194,11 @@ module.exports = {
             tagName: 'meta',
             name: 'theme-color',
             content: 'rgb(0, 77, 217)'
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-title',
+            content: 'developer.e-mongolia.mn'
           },
           {
             tagName: 'meta',
