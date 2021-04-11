@@ -43,7 +43,7 @@ function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   return (
-    <Layout title={`${siteConfig.title}`} description="E-mongolia хөгжүүлэгийн гарын авлага">
+    <Layout title={`${siteConfig.title}`} description="E-mongolia хөгжүүлэгчийн гарын авлага">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className={clsx('hero__title', styles.heroTitle)}>{siteConfig.title}</h1>

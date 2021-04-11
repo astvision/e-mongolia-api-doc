@@ -9,7 +9,14 @@ function SubOrganizations({icon, name, count}) {
         <div className="col col--12">
           {/* boxShadow: '1px 3px 15px 1px rgba(0,0,0,0.08)' */}
           <div className="avatar" style={{margin: '.5rem 0 .5rem 0', padding: '5px'}}>
-            <img className="avatar__photo avatar__photo--sm" style={{borderRadius: 0}} src={icon ? icon : useBaseUrl('img/logo-new.png')} />
+            <img
+              className="avatar__photo avatar__photo--sm"
+              width="32px"
+              height="32px"
+              alt={'Logo - ' + name}
+              style={{borderRadius: 0}}
+              src={icon ? icon : useBaseUrl('img/logo-new.png')}
+            />
             <div className="avatar__intro">
               <h4 className="avatar__name">{name}</h4>
               <small className="avatar__subtitle" style={{fontWeight: 600}}>
@@ -55,7 +62,14 @@ export default function Organizations() {
                 cursor: open ? 'default' : 'pointer'
               }}
             >
-              <img className="avatar__photo avatar__photo--lg" style={{borderRadius: 0}} src={icon ? icon : useBaseUrl('img/logo-new.png')} />
+              <img
+                className="avatar__photo avatar__photo--lg"
+                width="64px"
+                height="64px"
+                alt={'Logo - ' + name}
+                style={{borderRadius: 0}}
+                src={icon ? icon : useBaseUrl('img/logo-new.png')}
+              />
               <div className="avatar__intro">
                 <h4 className="avatar__name" style={{fontSize: '1rem'}}>
                   {name}

@@ -36,9 +36,9 @@ module.exports = {
     },
     metadatas: [
       {property: 'og:locale', content: 'mn_MN'},
-      {property: 'og:image', content: 'https://developer.e-mongolia.mn/img/logo-full.png'},
+      {property: 'og:image', content: 'img/logo-full.png'},
       {property: 'og:url', content: 'https://developer.e-mongolia.mn/'},
-      {property: 'og:site_name', content: 'E-mongolia хөгжүүлэгийн гарын авлага'},
+      {property: 'og:site_name', content: 'E-mongolia хөгжүүлэгчийн гарын авлага'},
       {property: 'og:type', content: 'website'}
     ],
     // prism: {
@@ -177,18 +177,13 @@ module.exports = {
         pwaHead: [
           {
             tagName: 'link',
-            rel: 'canonical',
-            href: 'https://developer.e-mongolia.mn/'
-          },
-          {
-            tagName: 'link',
             rel: 'icon',
             href: 'img/logo-new.png'
           },
           {
             tagName: 'link',
             rel: 'manifest',
-            href: `/manifest.json`
+            href: '/manifest.json'
           },
           {
             tagName: 'meta',
