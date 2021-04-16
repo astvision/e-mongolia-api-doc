@@ -7,7 +7,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.png',
+  favicon: '/img/favicon.png',
   organizationName: 'astvision',
   projectName: 'e-mongolia-api-doc',
   customFields: {
@@ -34,13 +34,6 @@ module.exports = {
     gtag: {
       trackingID: 'UA-129610459-2'
     },
-    metadatas: [
-      {property: 'og:locale', content: 'mn_MN'},
-      {property: 'og:image', content: 'img/logo-full.png'},
-      {property: 'og:url', content: 'https://developer.e-mongolia.mn/'},
-      {property: 'og:site_name', content: 'E-mongolia хөгжүүлэгчийн гарын авлага'},
-      {property: 'og:type', content: 'website'}
-    ],
     // prism: {
     //   theme: require('prism-react-renderer/themes/github'),
     //   darkTheme: require('prism-react-renderer/themes/dracula')
@@ -60,7 +53,7 @@ module.exports = {
       title: 'E-Mongolia',
       logo: {
         alt: 'e-mongolia logo',
-        src: 'img/logo-new.svg'
+        src: '/img/logo-new.svg'
       },
       items: [
         {
@@ -156,7 +149,7 @@ module.exports = {
       ],
       logo: {
         alt: 'E-mongolia Full Logo',
-        src: 'img/logo-new-light.svg',
+        src: '/img/logo-new-light.svg',
         href: 'https://e-mongolia.mn'
       },
       copyright: `Copyright © ${new Date().getFullYear()} Харилцаа холбоо, мэдээллийн технологийн газар.`
@@ -176,9 +169,34 @@ module.exports = {
         offlineModeActivationStrategies: ['appInstalled', 'queryString'],
         pwaHead: [
           {
+            tagName: 'meta',
+            property: 'og:locale',
+            content: 'mn_MN'
+          },
+          {
+            tagName: 'meta',
+            property: 'og:image',
+            content: 'https://developer.e-mongolia.mn/img/logo-full.png'
+          },
+          {
+            tagName: 'meta',
+            property: 'og:url',
+            content: 'https://developer.e-mongolia.mn/'
+          },
+          {
+            tagName: 'meta',
+            property: 'og:site_name',
+            content: 'E-mongolia хөгжүүлэгчийн гарын авлага'
+          },
+          {
+            tagName: 'meta',
+            property: 'og:type',
+            content: 'website'
+          },
+          {
             tagName: 'link',
             rel: 'icon',
-            href: 'img/logo-new.png'
+            href: '/img/logo-new.png'
           },
           {
             tagName: 'link',
@@ -208,18 +226,18 @@ module.exports = {
           {
             tagName: 'link',
             rel: 'apple-touch-icon',
-            href: 'img/logo-new.png'
+            href: '/img/logo-new.png'
           },
           {
             tagName: 'link',
             rel: 'mask-icon',
-            href: 'img/logo-new.svg',
+            href: '/img/logo-new.svg',
             color: 'rgb(0, 77, 217)'
           },
           {
             tagName: 'meta',
             name: 'msapplication-TileImage',
-            content: 'img/logo-new.png'
+            content: '/img/logo-new.png'
           },
           {
             tagName: 'meta',
