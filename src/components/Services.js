@@ -34,7 +34,7 @@ function RenderServices({data}) {
   return (
     <Tabs defaultValue={firstWord} values={tabValues} block>
       {wordList.map((word) => (
-        <TabItem value={word}>
+        <TabItem key={word} value={word}>
           <RenderService data={data[word]} />
         </TabItem>
       ))}
@@ -45,7 +45,7 @@ function RenderServices({data}) {
 export default function Services() {
   const {mobileData, operatorData, portalData} = usePluginData('data-loader');
   return (
-    <div className="row">
+    <div className="row row--no-gutters">
       <div className="col col--12">
         <Tabs
           defaultValue="mobile"
